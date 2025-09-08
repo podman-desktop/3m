@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3,000,000 × Podman Desktop</title>
+
+    <meta
+      name="description"
+      content="Celebrate 3,000,000 downloads of Podman Desktop! Thank you to everyone who provides feedback and helps us improve."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:image" content="https://3m.podman-desktop.io/img/3million-celebration.jpg" />
+    <meta property="og:image:alt" content="Podman Desktop celebrates 3,000,000 downloads" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:title" content="3,000,000 × Podman Desktop" />
+    <meta
+      property="og:description"
+      content="Celebrate 3,000,000 downloads of Podman Desktop! Thank you to everyone who provides feedback and helps us improve."
+    />
+    <meta property="og:url" content="https://3m.podman-desktop.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Podman Desktop" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="3,000,000 × Podman Desktop" />
+    <meta
+      name="twitter:description"
+      content="Celebrate 3,000,000 downloads of Podman Desktop! Thank you to everyone who provides feedback and helps us improve."
+    />
+    <meta name="twitter:image" content="https://3m.podman-desktop.io/img/3million-celebration.jpg" />
+    <meta name="twitter:image:alt" content="Podman Desktop celebrates 3,000,000 downloads" />
+
+    <link rel="canonical" href="https://3m.podman-desktop.io" />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin="" />
+
+    <!-- Load spline-viewer -->
+    <script
+      type="module"
+      crossorigin="anonymous"
+      integrity="<fill-with-SHA384>"
+      src="https://unpkg.com/@splinetool/viewer@1.10.56/build/spline-viewer.js"
+    ></script>
+
+    <style>
+      body {
+        margin: 0;
+        background-color: #000;
+      }
+      .three-million-page {
+        width: 100vw;
+        height: 100dvh;
+        min-height: 100vh;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="three-million-page">
+      <spline-viewer url="/spline/scene.splinecode"></spline-viewer>
+    </div>
+  </body>
+</html>
